@@ -13,4 +13,4 @@ class Author(models.Model):
     name = models.CharField(max_length=225)
     biography  = models.TextField()
     date_of_birth = models.DateField()
-    
+    books = models.ManyToManyField('Book', related_name='authors', blank=True)
