@@ -11,7 +11,7 @@ Authentication is required to gain access to the endpoints and to do that you ne
 
 ## Description
 
-This is the source for the Building a many to many modeled REST API with drf.
+This is the source for the Building a many to many modeled REST API with drf found here https://link.medium.com/HVXW1QZik0.
 
 The API uses application/json content type and to gain full access you'll the username and password created earlier should be used for the Login endpoint and this will generate a JWT token which will be used as Authorization header with the word 'Token' coming before the actual token.
 
